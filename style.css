@@ -1,0 +1,36 @@
+body{
+    display: flex ;
+    justify-content: center;
+    background-color: blue;
+    background-image: url(https://images.inc.com/uploaded_files/image/1920x1080/getty_626660256_2000108620009280158_388846.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: 25%;
+}
+
+.block{
+    width: 400px;
+    height:400px ;
+    background-image: url(https://media3.giphy.com/media/fCd9TySPoFIsFyq9Rj/giphy.gif?cid=6c09b952lxsvel7sqleesphzb7xgo5l85lfr2u6ytpzb0xh0&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    border: 3px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    transition: 3s;
+    justify-content: center;    
+    box-shadow: 0px 0px 10px 15px forestgreen;
+}
+
+.block:hover {
+    transform: rotate(360deg);
+    width: 300px;
+    height: 500px;
+    box-shadow: 0px 0px 15px 10px brown;
+}
+
+audio:hover {
+    transform: rotate(360deg);
+    transition: 3s;
+}
